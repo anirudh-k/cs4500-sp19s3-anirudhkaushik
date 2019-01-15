@@ -9,4 +9,9 @@ public class HelloController {
   public String sayHello() {
     return "Hello CS4500!";
   }
+
+  @RequestMapping("/api/hello/object")
+  public HelloObject sayHelloObject() {
+    return new HelloObject("Hello Object CS4500!");
+  }
 }
