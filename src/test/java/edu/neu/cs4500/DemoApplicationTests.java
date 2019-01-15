@@ -1,4 +1,4 @@
-package edu.neu.cs4500.cs4500sp19s3CCIS;
+package edu.neu.cs4500;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
